@@ -66,5 +66,9 @@
 		want to change.
 	-> If you extend the View class, draw the custom view's shape and control its appearance by overriding View 
 		methods such as onDraw() and onMeasure() in the new class.
-
+	*/
+	(2) @JvmOverloads
+	/*
+	-> The @JvmOverloads annotation instructs the Kotlin compiler to generate overloads for this function 
+		that substitute default parameter values.
 	*/
