@@ -72,3 +72,27 @@
 	-> The @JvmOverloads annotation instructs the Kotlin compiler to generate overloads for this function 
 		that substitute default parameter values.
 	*/
+	(3) Canvas
+	/*
+	-> you can create 2D drawings using the drawing methods of the Canvas class. canvas is a 2D drawing 
+		surface that provides methods for drawing. This is useful when your app needs to regularly redraw itself,
+		because what the user sees changes over time.	
+	*/
+	(4) Drawing
+	/*
+	-> you need a view for displaying what you're drawing. This could be one of the views provided by the 
+		Android system or you create a custom view that serves as the content view for your app. or use custom view.
+	-> custom view comes with its own canvas.
+	-> For the most basic way of drawing under canvas of a view, you overwrite the onDraw method 
+		and draw on its canvas.
+	-> When drawing cumulatively, you need to cache what you have drawn before, mostly because better performance 
+		for complex drawings and it's it's a best practice to always apply
+	-> here are several ways of caching your data. One is in a bitmap.
+		Another way we just save a history of what you've drawn as co-ordinates or instructions.
+		Which method you choose depends on your application and your personal preference.
+	-> To draw to your caching bitmap, $extraBitmap using the canvas drawing API, you create a caching canvas,
+		$extraCanvas for your caching bitmap. Then you draw on your caching canvas, extraCanvas which draws on 
+		your caching bitmap, extraBitmap. To display everything on the screen, you tell the views canvas to 
+		draw out a caching bitmap. 
+	*/
+	
