@@ -32,6 +32,20 @@ This app demonstrates the following views and techniques:
 | | | | |
 | :---: |:---:| :---:| :---:|
 | ![off](https://user-images.githubusercontent.com/18370055/99906735-5a595600-2ce1-11eb-8cbe-998a683f4cf4.PNG) | ![1](https://user-images.githubusercontent.com/18370055/99906729-59282900-2ce1-11eb-89d3-f92d25e17700.PNG) | ![2](https://user-images.githubusercontent.com/18370055/99906733-59c0bf80-2ce1-11eb-93f2-36af8ac2f037.PNG) |![3](https://user-images.githubusercontent.com/18370055/99906734-59c0bf80-2ce1-11eb-9b2b-7d13184b4393.PNG) |
+## 
+
+### 2.2 Drawing on Canvas Objects - MiniPaint App
+This app uses a custom view to implement drawing on a canvas in response to touch events. All drawing happens on the UI thread by overriding the custom view's onDraw() method. You can use this technique when drawing always takes less time than a screen refresh cycle on all target devices.
+
+
+## Code Link
+* <a href="https://github.com/Hosam11/Advanced-Android-with-Kotlin-part1/tree/main/MiniPaint"  target="_blank"> **MiniPaint App**</a>
+
+|   |   |   
+| :---: |:---:| 
+| ![empty](https://user-images.githubusercontent.com/18370055/100122216-c83c8380-2e81-11eb-8fd3-86aefafeb07f.PNG) |![helloWorld](https://user-images.githubusercontent.com/18370055/100122207-c70b5680-2e81-11eb-8f90-2130eb3a5aa6.PNG) |
+
+
 
 
 
