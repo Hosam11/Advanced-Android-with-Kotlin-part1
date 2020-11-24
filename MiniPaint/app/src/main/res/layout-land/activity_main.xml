@@ -8,29 +8,29 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
-    <!--<com.example.minipaint.MyCanvasView
+    <com.example.minipaint.MyCanvasView
         android:id="@+id/canves"
+        android:contentDescription="@string/canvasContentDescription"
         android:background="@color/colorBackground"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/canvasContentDescription"
+        android:layout_height="350dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
 
-    </com.example.minipaint.MyCanvasView>-->
+    </com.example.minipaint.MyCanvasView>
 
-   <!-- <Button
+    <Button
 
         android:id="@+id/btn_clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/clear"
+        android:text="clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/canves" />-->
+        app:layout_constraintTop_toBottomOf="@id/canves" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

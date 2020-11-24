@@ -94,5 +94,6 @@
 		$extraCanvas for your caching bitmap. Then you draw on your caching canvas, extraCanvas which draws on 
 		your caching bitmap, extraBitmap. To display everything on the screen, you tell the views canvas to 
 		draw out a caching bitmap. 
+	-> To display what you will draw in MyCanvasView, you have to set it as the ContentView of the MainActivity.
 	*/
 	
