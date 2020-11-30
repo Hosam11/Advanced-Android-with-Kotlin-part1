@@ -45,6 +45,20 @@ This app uses a custom view to implement drawing on a canvas in response to touc
 | :---: |:---:| 
 | ![empty](https://user-images.githubusercontent.com/18370055/100122216-c83c8380-2e81-11eb-8fd3-86aefafeb07f.PNG) |![helloWorld](https://user-images.githubusercontent.com/18370055/100122207-c70b5680-2e81-11eb-8f90-2130eb3a5aa6.PNG) |
 
+## 
+## Lesson 3: Animation
+### 3.1 Property Animation
+smiple application that animates stars on the screen by changing various View properties that control position, size, rotation, and translucency when pressed the buttons
+
+This app demonstrates the following views and techniques:
+* ObjectAnimator, AnimatorListeners, AnimatorSet, LinearInterpolator, PropertyValuesHolder
+
+## Code Link
+* <a href="https://github.com/Hosam11/Advanced-Android-with-Kotlin-part1/tree/main/PropertyAnimation"  target="_blank"> **PropertyAnimation**</a>
+
+## Demo
+![animation property demo](https://user-images.githubusercontent.com/18370055/100639739-3d0a3480-333e-11eb-8085-0cf2a1fb272b.gif)
+
 
 
 
