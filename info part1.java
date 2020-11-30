@@ -96,4 +96,35 @@
 		draw out a caching bitmap. 
 	-> To display what you will draw in MyCanvasView, you have to set it as the ContentView of the MainActivity.
 	*/
-	
+3- Animation
+	(1) ObjectAnimator
+	/*
+	-> the basic building blocks of most Android animations. Property animations are used to animate 
+		(or change over time) the value of a property on an object, usually a UI object like an Android view.
+	-> ObjectAnimators are class that was specifically created to provide a kind of set and forget animation,
+		where you tell it what to animate, the target object and property, and the start and the end values for 
+		the animation, and it handles all of the rest of the details about actually running the animation over time 
+		on that target object
+	*/
+	(2) Property
+	/*
+	-> Note: A property, to the animation system, is a field that is exposed via setters and getters, either implicitly
+		(as properties are in Kotlin) or explicitly (via the setter/getter pattern in the Java programming language).
+		There are also a special case of properties exposed via the class android.util.Property which is used by the 
+		View class, which allows a type-safe approach for animations, 
+	-> The Animator system in Android was specifically written to animate properties, meaning that it can animate 
+		anything (not just UI elements) that has a setter (and, in some cases, a getter)
+
+	-> There are actually two different ways to access the properties, by regular setter/getter pairs, like 
+		setTranslateX()/getTranslateX(), and by static android.util.Property objects, like View.TRANSLATE_X 
+		(an object that has both a get() and a set() method). 
+	-> use android.util.Propertyobjects, because it has less overhead internally along with better type-safety, 
+	*/
+	(3) AnimatorSet
+	/*
+	-> AnimatorSet, which is useful for this slightly more complex animation involving multiple ObjectAnimators..
+	-> AnimatorSet is basically a group of animations, along with instructions on when to run those animations.
+		It can play animations in parallel, or sequentially.
+	-> AnimatorSet can also contain other AnimatorSets, so you can create very complex hierarchical choreography 
+		by grouping animators together into these sets. 
+	*/
